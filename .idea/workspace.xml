@@ -5,9 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59545628-7477-4ccf-bae3-69eb08b93e10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/greeting-service/src/main/java/com/sc/greetingservice/configuration/GreetingConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greeting-service/src/main/java/com/sc/greetingservice/controller/GreetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greeting-service/src/main/java/com/sc/greetingservice/model/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_8_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_6_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_6_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_6_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/com/sc/bookservice/BookServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/com/sc/bookservice/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/com/sc/bookservice/dto/BookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/com/sc/bookservice/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/com/sc/bookservice/proxy/CambioProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/com/sc/bookservice/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/com/sc/bookservice/response/Cambio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/test/java/com/sc/bookservice/BookServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/src/main/java/com/sc/cambioservice/CambioServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/src/main/java/com/sc/cambioservice/controller/CambioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/src/main/java/com/sc/cambioservice/dto/CambioDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/src/main/java/com/sc/cambioservice/model/Cambio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/src/main/java/com/sc/cambioservice/repository/CambioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cambio-service/src/test/java/com/sc/cambioservice/CambioServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +79,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,8 +107,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/Eric/Documents/www/spring-projects/sc-microservices/config-server/src/main/resources/config",
+    "last_opened_file_path": "C:/Users/Eric/Documents/www/spring-projects/sc-microservices/book-service/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -54,6 +118,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Eric\Documents\www\spring-projects\sc-microservices\config-server\src\main\resources\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sc.cambioservice.dto" />
+      <recent name="com.sc.bookservice.response" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -65,7 +133,47 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConfigServerApplication">
+  <component name="RunManager" selected="Application.BookServiceApplication">
+    <configuration name="BookServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sc.bookservice.BookServiceApplication" />
+      <module name="book-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.bookservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CambioServiceApplication - 8000" type="Application" factoryName="Application" folderName="Cambio Service">
+      <option name="MAIN_CLASS_NAME" value="com.sc.cambioservice.CambioServiceApplication" />
+      <module name="cambio-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.cambioservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CambioServiceApplication - 8001" type="Application" factoryName="Application" folderName="Cambio Service">
+      <option name="MAIN_CLASS_NAME" value="com.sc.cambioservice.CambioServiceApplication" />
+      <module name="cambio-service" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.cambioservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sc.configserver.ConfigServerApplication" />
       <module name="config-server" />
@@ -92,8 +200,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CambioServiceApplication - 8000" />
+      <item itemvalue="Application.CambioServiceApplication - 8001" />
+      <item itemvalue="Application.BookServiceApplication" />
+      <item itemvalue="Application.ConfigServerApplication" />
+      <item itemvalue="Application.GreetingServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookServiceApplication" />
         <item itemvalue="Application.GreetingServiceApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
       </list>

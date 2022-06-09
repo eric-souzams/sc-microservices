@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-service/book-service.iml" filepath="$PROJECT_DIR$/book-service/book-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cambio-service/cambio-service.iml" filepath="$PROJECT_DIR$/cambio-service/cambio-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/greeting-service/greeting-service.iml" filepath="$PROJECT_DIR$/greeting-service/greeting-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naming-server/naming-server.iml" filepath="$PROJECT_DIR$/naming-server/naming-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sc-microservices.iml" filepath="$PROJECT_DIR$/.idea/sc-microservices.iml" />
     </modules>
   </component>

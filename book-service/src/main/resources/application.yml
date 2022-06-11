@@ -6,6 +6,34 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
+resilience4j:
+  retry:
+    instances:
+      foo-bar: #name do retry ou usar o default
+        max-attempts: 5 #numero de tentativas
+        wait-duration: 1s  #tempo para a proxima tentativa
+        enable-exponential-backoff: true #faz com que o tempo de espera aumente entre novas tentativas
+        exponential-backoff-multiplier: 1 #multiplica o valor da tentativa
+  circuitbreaker:
+    instances:
+      foo-bar:
+        register-health-indicator: true
+        sliding-window-type: COUNT_BASED #tipo de 'janela', tem por tempo ou quantidade de chamadas COUNT_BASED ou TIME_BASED
+        sliding-window-size: 8 #numero max de chamadas que ele memoriza
+        minimum-number-of-calls: 4 #numero minimo para fazer os calculos do CB
+        permitted-number-of-calls-in-half-open-state: 4 #numero de chamadas que podem quando o estado estiver no ABERTO-FECHADO
+        wait-duration-in-open-state: 30s #tempo que vai ficar no OPEN PRO ABERTO-FECHADO
+  ratelimiter:
+    instances:
+      foo-bar:
+        register-health-indicator: true
+        limit-for-period: 2 #maximo de req por periodo
+        limit-refresh-period: 10s #tempo de cada periodo
+  bulkhead:
+    instances:
+      foo-bar:
+        max-concurrent-calls: 10 #numero maximo de concorrencia de chamadas
+
 spring:
   application:
     name: book-service

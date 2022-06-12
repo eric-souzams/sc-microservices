@@ -6,6 +6,8 @@ import com.sc.bookservice.proxy.CambioProxy;
 import com.sc.bookservice.repository.BookRepository;
 import com.sc.bookservice.response.Cambio;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
@@ -20,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Optional;
 
+@Tag(name = "Book Endpoint")
 @RestController
 @RequestMapping(value = "/book-service")
 public class BookController {
@@ -35,6 +38,7 @@ public class BookController {
 
     private final Logger logger = LoggerFactory.getLogger(BookController.class);
 
+    @Operation(summary = "Find specific book by your ID")
     @GetMapping(value = "/{id}/{currency}")
     @CircuitBreaker(name = "foo-bar", fallbackMethod = "fallbackMethod")
     public ResponseEntity<?> findBook(@PathVariable("id") Long id, @PathVariable("currency") String currency) {

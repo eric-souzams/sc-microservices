@@ -3,6 +3,8 @@ package com.sc.cambioservice.controller;
 import com.sc.cambioservice.dto.CambioDto;
 import com.sc.cambioservice.model.Cambio;
 import com.sc.cambioservice.repository.CambioRepository;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
@@ -15,6 +17,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Optional;
 
+@Tag(name = "Cambio Endpoint")
 @RestController
 @RequestMapping(value = "/cambio-service")
 public class CambioController {
@@ -25,6 +28,7 @@ public class CambioController {
     @Autowired
     private CambioRepository cambioRepository;
 
+    @Operation(summary = "Get cambio from currency")
     @GetMapping(value = "/{amount}/{from}/{to}")
     public CambioDto getCambio(@PathVariable("amount") BigDecimal amount,
                                @PathVariable("from") String from,

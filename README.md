@@ -1,5 +1,5 @@
 <h1 align="center">
-  Spring Blog App
+  SC Microservices
 </h1>
 
 <p align="center">

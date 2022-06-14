@@ -65,6 +65,10 @@ $ git clone https://github.com/eric-souzams/sc-microservices.git
 $ cd sc-microservices
 
 $ cd {service-name}
+$ mvn install
+
+after install all applications
+$ cd {service-name}
 $ mvn spring-boot:run
 
 order to UP: naming-server -> api-gateway -> cambio-service -> book->service 
@@ -76,6 +80,12 @@ You'll need [Docker](https://www.docker.com/) installed on your computer in orde
 ```bash
 $ git clone https://github.com/eric-souzams/sc-microservices.git
 $ cd sc-microservices
+
+$ cd {service-name}
+$ mvn install
+$ mvn package
+
+after package all applications
 $ docker-compose up
 ```
 

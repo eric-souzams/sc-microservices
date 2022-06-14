@@ -23,7 +23,7 @@ services:
       - sc-network
 
   cambio-db:
-    image: mysql:8.0.23
+    image: mysql:8.0.29
     command: mysqld --default_authentication_plugin=mysql_native_password
     restart: always
     ports:
@@ -33,8 +33,6 @@ services:
     environment:
       TZ: America/Sao_Paulo
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_USER: cambio
-      MYSQL_PASSWORD: root
       MYSQL_DATABASE: cambio_service
       MYSQL_ROOT_HOST: '%'
       MYSQL_TCP_PORT: 3308
@@ -42,7 +40,7 @@ services:
       - sc-network
 
   book-db:
-    image: mysql:8.0.23
+    image: mysql:8.0.29
     command: mysqld --default_authentication_plugin=mysql_native_password
     restart: always
     ports:
@@ -52,8 +50,6 @@ services:
     environment:
       TZ: America/Sao_Paulo
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_USER: book
-      MYSQL_PASSWORD: root
       MYSQL_DATABASE: book_service
       MYSQL_ROOT_HOST: '%'
       MYSQL_TCP_PORT: 3310
